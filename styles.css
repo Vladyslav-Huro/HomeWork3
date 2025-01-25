@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 500px;
+    text-align: center;
+    border: 2px solid rgb(255, 255, 255);  
+}
+
+.form-header {
+    margin-bottom: 20px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.form-header h2 {
+    color: #333;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.form-header a.active {
+    color: #46A358;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.enter {
+    font-size: 13px;
+    color: #3D3D3D;
+    margin-bottom: 5px;
+    width: 80%;
+}
+
+.form-reg input {
+    width: 70%;
+    padding: 13px;
+    margin: 8px 0;
+    font-size: 14px;
+    border: 1px solid #EAEAEA;
+    border-radius: 5px;
+    color: #3D3D3D;
+    box-sizing: border-box;
+}
+
+.password-hide {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.password-hide .hide{
+    position: relative;
+    left: 79%;
+    width: 20px;
+    height: 20px;
+
+}
+
+.password-hide img.hide {
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.reg-btn {
+    background-color: #46A358;
+    color: white;
+    border: none;
+    font-size: 16px;
+    padding: 18px;
+    width: 70%;
+    margin: 20px 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.or {
+    margin: 5px ;
+    padding: 20px;
+    color: #3D3D3D;
+    font-size: 13px;
+}
+.line {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.line::before, .line::after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid #EAEAEA;
+    margin: 0 10px;
+}
+
+.line span {
+    color: #3D3D3D;
+    font-size: 13px;
+}
+
+.google-btn, .facebook-btn {
+    color: #727272;
+    border: 1px solid #EAEAEA;
+    background-color: #ffffff;
+    width: 70%;
+    font-size: 13px;
+    padding: 13px;
+    margin: 10px auto;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+.google-btn img, .facebook-btn img {
+    width: 20px;
+    height: 20px;
+}
+.line-down {
+    border-bottom: 10px solid  #46A358
+}
